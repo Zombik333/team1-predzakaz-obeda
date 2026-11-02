@@ -16,6 +16,7 @@
 
 ## Ссылки
 
+- **Проектная работа, главы 1–3 (промежуточный контроль, PDF):** [docs/Team1_PK_Proektnaya_rabota_v1.pdf](docs/Team1_PK_Proektnaya_rabota_v1.pdf)
 - Глава 2 «Требования» (PDF): [docs/Team1_E2_Trebovaniya_v1.pdf](docs/Team1_E2_Trebovaniya_v1.pdf)
 - Глава 3 «Проектирование» (PDF): [docs/Team1_E3_Proektirovanie_v1.pdf](docs/Team1_E3_Proektirovanie_v1.pdf)
 - Модели этапа 3 (BPMN, UML, схема БД, архитектура): [models/](models/README.md)

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="770" viewBox="0 0 1640 770" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+<defs>
+<marker id="fill" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33475E"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="vee" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="tri" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="15" markerHeight="15" orient="auto-start-reverse"><path d="M1,1 L13,7 L1,13 z" fill="#fff" stroke="#33475E" stroke-width="1.4"/></marker>
+<marker id="ocirc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8"><circle cx="5" cy="5" r="3.6" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="diamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#0F2E57"/></marker>
+<marker id="odiamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#fff" stroke="#33475E" stroke-width="1.2"/></marker>
+<marker id="crow" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M15,1 L3,8 L15,15 M3,1 L3,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="one" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M9,1 L9,15 M5,1 L5,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="350.0" y="60.0" font-size="20" text-anchor="middle" font-weight="700" fill="#0F2E57">Карта ценности: сервис предзаказа</text>
+<text x="1270.0" y="60.0" font-size="20" text-anchor="middle" font-weight="700" fill="#0F2E57">Профиль клиента: студент</text>
+<rect x="30.0" y="100.0" width="640.0" height="640.0" rx="0" fill="#FFFFFF" stroke="#0F2E57" stroke-width="2.2"/>
+<path d="M298.8,100.0 L298.8,740.0" fill="none" stroke="#0F2E57" stroke-width="1.8"/>
+<path d="M298.8,420.0 L670.0,420.0" fill="none" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="31.0" y="101.0" width="266.8" height="638.0" rx="0" fill="#E6EEF5" stroke="none" stroke-width="0"/>
+<text x="46.0" y="134.0" font-size="17" text-anchor="start" font-weight="700" fill="#0F2E57">Продукты и услуги</text>
+<text x="46.0" y="165.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">ф. 1 Меню с остатками</text>
+<text x="46.0" y="193.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">ф. 2 Корзина и предзаказ</text>
+<text x="46.0" y="220.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">ф. 3 Окно получения</text>
+<text x="46.0" y="248.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">ф. 4 Онлайн-оплата</text>
+<text x="46.0" y="275.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">ф. 5 Статус заказа</text>
+<text x="46.0" y="303.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">ф. 6 Уведомление</text>
+<text x="46.0" y="330.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">ф. 9 История и повтор</text>
+<text x="46.0" y="358.2" font-size="16" text-anchor="start" font-weight="400" fill="#6B7785">(ф. 7, 8, 10 — для</text>
+<text x="46.0" y="377.8" font-size="16" text-anchor="start" font-weight="400" fill="#6B7785">столовой)</text>
+<text x="314.8" y="134.0" font-size="17" text-anchor="start" font-weight="700" fill="#0F2E57">Создатели выгод</text>
+<text x="314.8" y="165.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Отдельная точка выдачи и статус (ф. 3,</text>
+<text x="314.8" y="185.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">5) → G1</text>
+<text x="314.8" y="216.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Предзаказ с резервом 10 минут (ф. 1,</text>
+<text x="314.8" y="236.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">2) → G2</text>
+<text x="314.8" y="267.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Чек платёжного сервиса и отмена (ф. 4)</text>
+<text x="314.8" y="287.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">→ G3</text>
+<text x="314.8" y="454.0" font-size="17" text-anchor="start" font-weight="700" fill="#0F2E57">Обезболивающие</text>
+<text x="314.8" y="485.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Окно получения и код (ф. 3) → P1</text>
+<text x="314.8" y="517.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Меню с остатками, резерв (ф. 1) → P2</text>
+<text x="314.8" y="548.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Оплата с электронным чеком (ф. 4) → P3</text>
+<circle cx="1270" cy="420.0" r="330" fill="#FBF8F1" stroke="#0F2E57" stroke-width="2.2"/>
+<path d="M1270.0,90.0 L1270.0,750.0" fill="none" stroke="#0F2E57" stroke-width="1.8"/>
+<path d="M940.0,420.0 L1270.0,420.0" fill="none" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="1120.0" y="215.0" font-size="17" text-anchor="middle" font-weight="700" fill="#0F2E57">Выгоды</text>
+<text x="1002.0" y="252.8" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">G1 Получить обед за 2 мин и</text>
+<text x="1002.0" y="271.1" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">меньше (BG-1)</text>
+<text x="1002.0" y="295.4" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">G2 Знать до перемены, что</text>
+<text x="1002.0" y="313.7" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">блюдо есть и отложено</text>
+<text x="1002.0" y="338.0" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">G3 Чек и возврат денег при</text>
+<text x="1002.0" y="356.3" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">отмене</text>
+<text x="1110.0" y="460.0" font-size="17" text-anchor="middle" font-weight="700" fill="#0F2E57">Боли</text>
+<text x="1008.0" y="494.8" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">P1 Очередь съедает перемену:</text>
+<text x="1008.0" y="513.0" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">6–7 мин (оценка команды)</text>
+<text x="1008.0" y="537.4" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">P2 Нужное блюдо закончилось:</text>
+<text x="1008.0" y="555.6" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">2 из 3 (опрос 09.10)</text>
+<text x="1008.0" y="580.0" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">P3 Перевод на карту без чека</text>
+<text x="1435.0" y="270.0" font-size="17" text-anchor="middle" font-weight="700" fill="#0F2E57">Работы клиента</text>
+<text x="1298.0" y="312.8" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">J1 Поесть горячий обед в</text>
+<text x="1298.0" y="331.1" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">перемену и вернуться на пару</text>
+<text x="1298.0" y="349.4" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">вовремя</text>
+<text x="1298.0" y="375.6" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">J2 Выбрать блюдо в пределах</text>
+<text x="1298.0" y="393.9" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">бюджета</text>
+<text x="1298.0" y="420.2" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">J3 Заплатить без наличных</text>
+<path d="M690.0,420.0 L920.0,420.0" fill="none" stroke="#3F6E96" stroke-width="3" marker-end="url(#fill)"/>
+<text x="805.0" y="406.0" font-size="15" text-anchor="middle" font-weight="600" fill="#3F6E96">соответствие</text>
+</svg>
