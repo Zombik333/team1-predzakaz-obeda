@@ -7,4 +7,5 @@
 - `Team1_E2_Trebovaniya_v1.pdf`: та же глава в формате PDF.
 - `Team1_E3_Proektirovanie_v1.docx`: глава 3 «Проектирование», исходный файл.
 - `Team1_E3_Proektirovanie_v1.pdf`: та же глава в формате PDF.
-- `Tekst_spikerov_PK_prezentaciya.pdf`: текст спикеров к презентации промежуточного контроля (20 слайдов, три докладчика, около 12 минут). Презентация: https://claude.ai/artifact/AUDkRnhjrCVgJpNAerfyKy.
+- `Team1_PK_Prezentaciya.pdf`: презентация промежуточного контроля для преподавателя (22 слайда, без заметок; все 27 ФТ на слайдах 8–10).
+- `Tekst_spikerov_PK_prezentaciya.pdf`: текст спикеров к презентации промежуточного контроля (22 слайда, три докладчика, около 12 минут). Презентация: https://claude.ai/artifact/AUDkRnhjrCVgJpNAerfyKy.
