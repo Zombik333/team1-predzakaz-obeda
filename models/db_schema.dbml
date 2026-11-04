@@ -1,0 +1,148 @@
+// Схема базы данных сервиса предзаказа обеда (команда 1). Открыть: https://dbdiagram.io
+
+Table staff { // Сотрудники
+  id serial [pk]
+  name varchar(60) [not null, note: 'имя']
+  phone varchar(13) [unique, note: 'телефон']
+  role varchar(12) [not null, note: 'раздача / администратор']
+  password_hash varchar(100) [not null, note: 'хэш пароля']
+  is_active boolean [not null, note: 'работает']
+}
+
+Table daily_menus { // Меню дня
+  id serial [pk]
+  menu_date date [unique, note: 'дата меню']
+  published_at timestamptz [not null, note: 'время публикации']
+  published_by int [note: '→ staff.id']
+}
+
+Table menu_items { // Позиции меню дня
+  id bigserial [pk]
+  daily_menu_id int [note: '→ daily_menus.id']
+  dish_id int [note: '→ dishes.id']
+  price integer [not null, note: 'цена, сум > 0']
+  stock smallint [not null, note: 'остаток ≥ 0']
+  indexes {
+    (daily_menu_id, dish_id) [unique]
+  }
+}
+
+Table dishes { // Блюда
+  id serial [pk]
+  name varchar(80) [not null, note: 'название']
+  portion_g smallint [not null, note: 'вес порции, г']
+  is_active boolean [not null, note: 'в продаже']
+}
+
+Table students { // Студенты
+  id bigserial [pk]
+  phone varchar(13) [unique, note: '+998…']
+  name varchar(60) [not null, note: 'имя']
+  telegram_chat_id bigint [note: 'для уведомлений, может быть пусто']
+  created_at timestamptz [not null, note: 'регистрация']
+}
+
+Table reservations { // Резервы
+  id bigserial [pk, note: 'номер для платёжного сервиса']
+  student_id bigint [note: '→ students.id']
+  window_id int [note: '→ pickup_windows.id']
+  total integer [not null, note: 'сумма, сум']
+  status varchar(10) [not null, note: 'активен / оплачен / истёк']
+  created_at timestamptz [not null]
+  expires_at timestamptz [not null, note: 'created_at + 10 мин']
+}
+
+Table reservation_items { // Позиции резерва
+  id bigserial [pk]
+  reservation_id bigint [note: '→ reservations.id']
+  menu_item_id bigint [note: '→ menu_items.id']
+  qty smallint [not null, note: '1…5']
+  price integer [not null, note: 'цена в момент резерва']
+}
+
+Table payments { // Платежи
+  id bigserial [pk]
+  reservation_id bigint [note: '→ reservations.id']
+  provider varchar(8) [not null, note: 'payme / click / uzum']
+  provider_txn_id varchar(64) [unique, note: 'ID транзакции сервиса']
+  amount integer [not null, note: 'сумма, сум']
+  status varchar(10) [not null, note: 'создан / оплачен / отказ']
+  receipt_url varchar(255) [not null, note: 'ссылка на чек']
+  created_at timestamptz [not null]
+  confirmed_at timestamptz [note: 'может быть пусто']
+}
+
+Table pickup_windows { // Окна получения
+  id serial [pk]
+  window_date date [not null, note: 'дата']
+  break_name varchar(30) [not null, note: 'перемена']
+  starts_at time [not null, note: 'начало']
+  accept_until time [not null, note: 'starts_at − 15 мин']
+  order_limit smallint [not null, default: 40, note: 'по умолчанию 40']
+  indexes {
+    (window_date, starts_at) [unique]
+  }
+}
+
+Table orders { // Заказы
+  id bigserial [pk, note: 'номер заказа']
+  reservation_id bigint [unique, note: '→ reservations.id']
+  student_id bigint [note: '→ students.id']
+  window_id int [note: '→ pickup_windows.id']
+  order_date date [not null, note: 'день заказа']
+  pickup_code char(4) [not null, note: 'UQ вместе с order_date']
+  total integer [not null, note: 'сумма, сум']
+  status varchar(10) [not null, note: 'Принят … Выдан, Отменён']
+  paid_at timestamptz [not null]
+  arrived_at timestamptz [note: '«Я на месте», может быть пусто']
+  issued_at timestamptz [note: 'выдан, может быть пусто']
+  issued_by int [note: '→ staff.id, может быть пусто']
+  indexes {
+    (order_date, pickup_code) [unique]
+  }
+}
+
+Table order_items { // Позиции заказа
+  id bigserial [pk]
+  order_id bigint [note: '→ orders.id']
+  menu_item_id bigint [note: '→ menu_items.id']
+  qty smallint [not null, note: '1…5']
+  price integer [not null, note: 'цена на момент оплаты']
+}
+
+Table refunds { // Возвраты
+  id bigserial [pk]
+  order_id bigint [note: '→ orders.id']
+  payment_id bigint [note: '→ payments.id']
+  amount integer [not null, note: 'сумма, сум']
+  status varchar(10) [not null, note: 'запрошен / выполнен']
+  requested_at timestamptz [not null]
+  completed_at timestamptz [note: 'может быть пусто']
+}
+
+Table order_status_log { // Журнал статусов
+  id bigserial [pk]
+  order_id bigint [note: '→ orders.id']
+  status varchar(10) [not null, note: 'новый статус']
+  changed_at timestamptz [not null, note: 'время смены']
+  changed_by int [note: '→ staff.id, может быть пусто']
+}
+
+Ref: daily_menus.published_by > staff.id
+Ref: menu_items.daily_menu_id > daily_menus.id
+Ref: menu_items.dish_id > dishes.id
+Ref: reservations.student_id > students.id
+Ref: reservations.window_id > pickup_windows.id
+Ref: reservation_items.reservation_id > reservations.id
+Ref: reservation_items.menu_item_id > menu_items.id
+Ref: payments.reservation_id > reservations.id
+Ref: orders.reservation_id - reservations.id
+Ref: orders.student_id > students.id
+Ref: orders.window_id > pickup_windows.id
+Ref: orders.issued_by > staff.id
+Ref: order_items.order_id > orders.id
+Ref: order_items.menu_item_id > menu_items.id
+Ref: refunds.order_id > orders.id
+Ref: refunds.payment_id > payments.id
+Ref: order_status_log.order_id > orders.id
+Ref: order_status_log.changed_by > staff.id

@@ -1,0 +1,322 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1550" height="975" viewBox="0 0 1550 975" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiYWU1OGE4MC00NTdlLTQ1YzktOWIzZS0xOTQyMjcwMjI1NjIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaG7JJ+P679nbdPPjfdPKwYcAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowYzVmZGU3Mi03NzZkLTRkMTItYWVmYS0xMjU5MWE2NTAwNzdscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoBQJ3426gGk2nfEMuzjGFFwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggGn5HS+w2/f+Y43Q8WSRqvKwe7N5nme+GjQJJNRcA2EWkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaIgRp+0sVqY+GL8lfqqNkVMAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBGY8L6gCgqT45Xo8HzrPyO+1VmeRMiMXbhtZvafVrju2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjOZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmJhZTU4YTgwLTQ1N2UtNDVjOS05YjNlLTE5NDIyNzAyMjU2Mi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjA4YzFhM2U3LWI1ZDAtNGM4My1iMzVlLTNiNTZiOGNlMWViN3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAafkdL7Db9/5jjdDxZJGq8rB7s3meZ74aNAkk1FwDYRaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg75MX5aBZwi0P3vdvJfUesqdVSzHarjBWumJAIHAikbiiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggTQvvKsnK+8Tya81dsURite8TKQ2+XAfr+fsUtaNlU3d0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQDo8VvAYuycEKP/ZX3/4L2rYoI+qmntRZFm+4i9zKheHBFkIInQSn/97mB6/9dokR5STkQTxUlBbdEaW+8XdT1Q=</c2pa:manifest></metadata>
+<defs>
+<marker id="fill" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33475E"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="vee" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="tri" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="15" markerHeight="15" orient="auto-start-reverse"><path d="M1,1 L13,7 L1,13 z" fill="#fff" stroke="#33475E" stroke-width="1.4"/></marker>
+<marker id="ocirc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8"><circle cx="5" cy="5" r="3.6" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="diamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#0F2E57"/></marker>
+<marker id="odiamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#fff" stroke="#33475E" stroke-width="1.2"/></marker>
+<marker id="crow" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M15,1 L3,8 L15,15 M3,1 L3,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="one" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M9,1 L9,15 M5,1 L5,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="40.0" y="30.0" width="300.0" height="164.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="40.0" y="30.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="52.0" y="52.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">staff</text>
+<text x="330.0" y="52.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Сотрудники</text>
+<text x="50.0" y="78.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="208.0" y="78.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">serial</text>
+<text x="332.0" y="78.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="41.0" y="84.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="50.0" y="99.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">name</text>
+<text x="208.0" y="99.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(60)</text>
+<text x="50.0" y="120.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">phone</text>
+<text x="208.0" y="120.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(13)</text>
+<text x="332.0" y="120.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">UQ</text>
+<rect x="41.0" y="126.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="50.0" y="141.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">role</text>
+<text x="208.0" y="141.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(12)</text>
+<text x="50.0" y="162.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">password_hash</text>
+<text x="208.0" y="162.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(100)</text>
+<rect x="41.0" y="168.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="50.0" y="183.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">is_active</text>
+<text x="208.0" y="183.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">boolean</text>
+<rect x="430.0" y="30.0" width="300.0" height="122.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="430.0" y="30.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="442.0" y="52.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">daily_menus</text>
+<text x="720.0" y="52.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Меню дня</text>
+<text x="440.0" y="78.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="598.0" y="78.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">serial</text>
+<text x="722.0" y="78.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="431.0" y="84.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="99.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">menu_date</text>
+<text x="598.0" y="99.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">date</text>
+<text x="722.0" y="99.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">UQ</text>
+<text x="440.0" y="120.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">published_at</text>
+<text x="598.0" y="120.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<rect x="431.0" y="126.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="141.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">published_by</text>
+<text x="598.0" y="141.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">int</text>
+<text x="722.0" y="141.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<rect x="820.0" y="30.0" width="300.0" height="143.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="820.0" y="30.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="832.0" y="52.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">menu_items</text>
+<text x="1110.0" y="52.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Позиции меню дня</text>
+<text x="830.0" y="78.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="988.0" y="78.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="1112.0" y="78.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="821.0" y="84.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="830.0" y="99.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">daily_menu_id</text>
+<text x="988.0" y="99.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">int</text>
+<text x="1112.0" y="99.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<text x="830.0" y="120.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">dish_id</text>
+<text x="988.0" y="120.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">int</text>
+<text x="1112.0" y="120.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<rect x="821.0" y="126.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="830.0" y="141.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">price</text>
+<text x="988.0" y="141.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">integer</text>
+<text x="830.0" y="162.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">stock</text>
+<text x="988.0" y="162.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">smallint</text>
+<rect x="1210.0" y="30.0" width="300.0" height="122.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="1210.0" y="30.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="1222.0" y="52.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">dishes</text>
+<text x="1500.0" y="52.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Блюда</text>
+<text x="1220.0" y="78.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="1378.0" y="78.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">serial</text>
+<text x="1502.0" y="78.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="1211.0" y="84.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="99.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">name</text>
+<text x="1378.0" y="99.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(80)</text>
+<text x="1220.0" y="120.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">portion_g</text>
+<text x="1378.0" y="120.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">smallint</text>
+<rect x="1211.0" y="126.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="141.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">is_active</text>
+<text x="1378.0" y="141.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">boolean</text>
+<rect x="40.0" y="280.0" width="300.0" height="143.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="40.0" y="280.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="52.0" y="302.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">students</text>
+<text x="330.0" y="302.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Студенты</text>
+<text x="50.0" y="328.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="208.0" y="328.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="332.0" y="328.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="41.0" y="334.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="50.0" y="349.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">phone</text>
+<text x="208.0" y="349.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(13)</text>
+<text x="332.0" y="349.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">UQ</text>
+<text x="50.0" y="370.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">name</text>
+<text x="208.0" y="370.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(60)</text>
+<rect x="41.0" y="376.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="50.0" y="391.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">telegram_chat_id</text>
+<text x="208.0" y="391.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="50.0" y="412.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">created_at</text>
+<text x="208.0" y="412.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<rect x="430.0" y="280.0" width="300.0" height="185.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="430.0" y="280.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="442.0" y="302.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">reservations</text>
+<text x="720.0" y="302.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Резервы</text>
+<text x="440.0" y="328.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="598.0" y="328.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="722.0" y="328.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="431.0" y="334.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="349.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">student_id</text>
+<text x="598.0" y="349.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="722.0" y="349.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<text x="440.0" y="370.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">window_id</text>
+<text x="598.0" y="370.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">int</text>
+<text x="722.0" y="370.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<rect x="431.0" y="376.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="391.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">total</text>
+<text x="598.0" y="391.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">integer</text>
+<text x="440.0" y="412.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">status</text>
+<text x="598.0" y="412.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(10)</text>
+<rect x="431.0" y="418.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="433.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">created_at</text>
+<text x="598.0" y="433.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<text x="440.0" y="454.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">expires_at</text>
+<text x="598.0" y="454.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<rect x="820.0" y="280.0" width="300.0" height="143.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="820.0" y="280.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="832.0" y="302.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">reservation_items</text>
+<text x="1110.0" y="302.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Позиции резерва</text>
+<text x="830.0" y="328.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="988.0" y="328.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="1112.0" y="328.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="821.0" y="334.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="830.0" y="349.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">reservation_id</text>
+<text x="988.0" y="349.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="1112.0" y="349.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<text x="830.0" y="370.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">menu_item_id</text>
+<text x="988.0" y="370.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="1112.0" y="370.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<rect x="821.0" y="376.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="830.0" y="391.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">qty</text>
+<text x="988.0" y="391.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">smallint</text>
+<text x="830.0" y="412.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">price</text>
+<text x="988.0" y="412.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">integer</text>
+<rect x="1210.0" y="280.0" width="300.0" height="227.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="1210.0" y="280.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="1222.0" y="302.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">payments</text>
+<text x="1500.0" y="302.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Платежи</text>
+<text x="1220.0" y="328.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="1378.0" y="328.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="1502.0" y="328.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="1211.0" y="334.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="349.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">reservation_id</text>
+<text x="1378.0" y="349.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="1502.0" y="349.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<text x="1220.0" y="370.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">provider</text>
+<text x="1378.0" y="370.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(8)</text>
+<rect x="1211.0" y="376.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="391.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">provider_txn_id</text>
+<text x="1378.0" y="391.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(64)</text>
+<text x="1502.0" y="391.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">UQ</text>
+<text x="1220.0" y="412.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">amount</text>
+<text x="1378.0" y="412.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">integer</text>
+<rect x="1211.0" y="418.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="433.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">status</text>
+<text x="1378.0" y="433.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(10)</text>
+<text x="1220.0" y="454.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">receipt_url</text>
+<text x="1378.0" y="454.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(255)</text>
+<rect x="1211.0" y="460.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="475.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">created_at</text>
+<text x="1378.0" y="475.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<text x="1220.0" y="496.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">confirmed_at</text>
+<text x="1378.0" y="496.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<rect x="40.0" y="600.0" width="300.0" height="164.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="40.0" y="600.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="52.0" y="622.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">pickup_windows</text>
+<text x="330.0" y="622.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Окна получения</text>
+<text x="50.0" y="648.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="208.0" y="648.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">serial</text>
+<text x="332.0" y="648.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="41.0" y="654.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="50.0" y="669.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">window_date</text>
+<text x="208.0" y="669.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">date</text>
+<text x="50.0" y="690.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">break_name</text>
+<text x="208.0" y="690.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(30)</text>
+<rect x="41.0" y="696.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="50.0" y="711.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">starts_at</text>
+<text x="208.0" y="711.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">time</text>
+<text x="50.0" y="732.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">accept_until</text>
+<text x="208.0" y="732.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">time</text>
+<rect x="41.0" y="738.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="50.0" y="753.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">order_limit</text>
+<text x="208.0" y="753.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">smallint</text>
+<rect x="430.0" y="600.0" width="300.0" height="290.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="430.0" y="600.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="442.0" y="622.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">orders</text>
+<text x="720.0" y="622.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Заказы</text>
+<text x="440.0" y="648.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="598.0" y="648.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="722.0" y="648.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="431.0" y="654.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="669.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">reservation_id</text>
+<text x="598.0" y="669.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="722.0" y="669.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK, UQ</text>
+<text x="440.0" y="690.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">student_id</text>
+<text x="598.0" y="690.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="722.0" y="690.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<rect x="431.0" y="696.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="711.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">window_id</text>
+<text x="598.0" y="711.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">int</text>
+<text x="722.0" y="711.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<text x="440.0" y="732.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">order_date</text>
+<text x="598.0" y="732.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">date</text>
+<rect x="431.0" y="738.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="753.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">pickup_code</text>
+<text x="598.0" y="753.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">char(4)</text>
+<text x="440.0" y="774.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">total</text>
+<text x="598.0" y="774.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">integer</text>
+<rect x="431.0" y="780.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="795.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">status</text>
+<text x="598.0" y="795.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(10)</text>
+<text x="440.0" y="816.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">paid_at</text>
+<text x="598.0" y="816.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<rect x="431.0" y="822.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="837.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">arrived_at</text>
+<text x="598.0" y="837.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<text x="440.0" y="858.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">issued_at</text>
+<text x="598.0" y="858.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<rect x="431.0" y="864.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="440.0" y="879.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">issued_by</text>
+<text x="598.0" y="879.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">int</text>
+<text x="722.0" y="879.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<rect x="820.0" y="600.0" width="300.0" height="143.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="820.0" y="600.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="832.0" y="622.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">order_items</text>
+<text x="1110.0" y="622.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Позиции заказа</text>
+<text x="830.0" y="648.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="988.0" y="648.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="1112.0" y="648.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="821.0" y="654.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="830.0" y="669.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">order_id</text>
+<text x="988.0" y="669.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="1112.0" y="669.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<text x="830.0" y="690.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">menu_item_id</text>
+<text x="988.0" y="690.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="1112.0" y="690.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<rect x="821.0" y="696.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="830.0" y="711.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">qty</text>
+<text x="988.0" y="711.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">smallint</text>
+<text x="830.0" y="732.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">price</text>
+<text x="988.0" y="732.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">integer</text>
+<rect x="1210.0" y="600.0" width="300.0" height="185.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="1210.0" y="600.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="1222.0" y="622.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">refunds</text>
+<text x="1500.0" y="622.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Возвраты</text>
+<text x="1220.0" y="648.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="1378.0" y="648.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="1502.0" y="648.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="1211.0" y="654.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="669.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">order_id</text>
+<text x="1378.0" y="669.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="1502.0" y="669.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<text x="1220.0" y="690.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">payment_id</text>
+<text x="1378.0" y="690.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="1502.0" y="690.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<rect x="1211.0" y="696.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="711.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">amount</text>
+<text x="1378.0" y="711.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">integer</text>
+<text x="1220.0" y="732.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">status</text>
+<text x="1378.0" y="732.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(10)</text>
+<rect x="1211.0" y="738.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="1220.0" y="753.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">requested_at</text>
+<text x="1378.0" y="753.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<text x="1220.0" y="774.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">completed_at</text>
+<text x="1378.0" y="774.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<rect x="820.0" y="800.0" width="300.0" height="143.0" rx="3" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="820.0" y="800.0" width="300.0" height="32.0" rx="3" fill="#0F2E57" stroke="#0F2E57" stroke-width="1.8"/>
+<text x="832.0" y="822.0" font-size="14.5" text-anchor="start" font-weight="700" fill="#FFFFFF" font-family="'JetBrains Mono', monospace">order_status_log</text>
+<text x="1110.0" y="822.0" font-size="12.5" text-anchor="end" font-weight="500" fill="#A8C3DC">Журнал статусов</text>
+<text x="830.0" y="848.0" font-size="13" text-anchor="start" font-weight="700" fill="#1E2A38" font-family="'JetBrains Mono', monospace">id</text>
+<text x="988.0" y="848.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigserial</text>
+<text x="1112.0" y="848.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#8E4C4C">PK</text>
+<rect x="821.0" y="854.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="830.0" y="869.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">order_id</text>
+<text x="988.0" y="869.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">bigint</text>
+<text x="1112.0" y="869.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<text x="830.0" y="890.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">status</text>
+<text x="988.0" y="890.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">varchar(10)</text>
+<rect x="821.0" y="896.0" width="298.0" height="21.0" rx="0" fill="#F4F7FA" stroke="none" stroke-width="0"/>
+<text x="830.0" y="911.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">changed_at</text>
+<text x="988.0" y="911.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">timestamptz</text>
+<text x="830.0" y="932.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38" font-family="'JetBrains Mono', monospace">changed_by</text>
+<text x="988.0" y="932.0" font-size="12.5" text-anchor="start" font-weight="400" fill="#3F6E96" font-family="'JetBrains Mono', monospace">int</text>
+<text x="1112.0" y="932.0" font-size="11.5" text-anchor="end" font-weight="700" fill="#0F2E57">FK</text>
+<path d="M340.0,74.0 L400.0,74.0 L400.0,137.0 L430.0,137.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M730.0,74.0 L780.0,74.0 L780.0,95.0 L820.0,95.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M1210.0,74.0 L1160.0,74.0 L1160.0,116.0 L1120.0,116.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M340.0,324.0 L380.0,324.0 L380.0,345.0 L430.0,345.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M340.0,644.0 L405.0,644.0 L405.0,366.0 L430.0,366.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M730.0,324.0 L780.0,324.0 L780.0,345.0 L820.0,345.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M1050.0,173.0 L1050.0,280.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M680.0,465.0 L680.0,570.0 L1270.0,570.0 L1270.0,507.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M580.0,465.0 L580.0,600.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#one)" marker-start="url(#one)"/>
+<path d="M340.0,334.0 L370.0,334.0 L370.0,686.0 L430.0,686.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M340.0,654.0 L395.0,654.0 L395.0,707.0 L430.0,707.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M730.0,644.0 L780.0,644.0 L780.0,665.0 L820.0,665.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M1120.0,158.0 L1150.0,158.0 L1150.0,686.0 L1120.0,686.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M1430.0,507.0 L1430.0,600.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M730.0,765.0 L1170.0,765.0 L1170.0,665.0 L1210.0,665.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M730.0,865.0 L820.0,865.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M40.0,74.0 L18.0,74.0 L18.0,875.0 L430.0,875.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<path d="M18.0,875.0 L18.0,928.0 L820.0,928.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<rect x="1160.0" y="812.0" width="350.0" height="140.0" rx="8" fill="#FBF8F2" stroke="#D9C7A5" stroke-width="1.4"/>
+<text x="1174.0" y="838.0" font-size="14" text-anchor="start" font-weight="700" fill="#0F2E57">Обозначения</text>
+<text x="1174.0" y="862.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38">PK — первичный ключ, FK — внешний ключ,</text>
+<text x="1174.0" y="882.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38">UQ — уникальное значение.</text>
+<path d="M1178.0,910.0 L1260.0,910.0" fill="none" stroke="#33475E" stroke-width="1.5" marker-end="url(#crow)" marker-start="url(#one)"/>
+<text x="1272.0" y="908.0" font-size="13" text-anchor="start" font-weight="600" fill="#1E2A38">один ко многим:</text>
+<text x="1272.0" y="928.0" font-size="13" text-anchor="start" font-weight="400" fill="#1E2A38">1 строка — много строк</text>
+</svg>

@@ -17,6 +17,10 @@
 ## Ссылки
 
 - Глава 2 «Требования» (PDF): [docs/Team1_E2_Trebovaniya_v1.pdf](docs/Team1_E2_Trebovaniya_v1.pdf)
+- Глава 3 «Проектирование» (PDF): [docs/Team1_E3_Proektirovanie_v1.pdf](docs/Team1_E3_Proektirovanie_v1.pdf)
+- Модели этапа 3 (BPMN, UML, схема БД, архитектура): [models/](models/README.md)
+- SQL-скрипт схемы базы данных: [models/schema.sql](models/schema.sql)
+- Кликабельный прототип и экраны: [prototype/](prototype/README.md)
 - Доска задач Trello: <ссылка>
 - Папка Google Drive: <ссылка>
 - Прототип Figma: <ссылка>
@@ -26,9 +30,9 @@
 
 | Папка | Что внутри |
 |---|---|
-| `/docs` | Исходники документов: главы 1 и 2, протоколы интервью |
-| `/models` | Матрица влияния, карта пути (draw.io), позже BPMN и UML |
-| `/prototype` | Ссылка на Figma и экспорт экранов |
+| `/docs` | Исходники документов: главы 1–3, протоколы интервью |
+| `/models` | Матрица влияния, карта пути, BPMN, UML, схема БД (SQL, DBML), архитектура |
+| `/prototype` | Ссылка на Figma, экраны PNG, кликабельный прототип HTML, инструкция по сборке в Figma |
 | `/tests` | Список тест-кейсов TC-001…TC-070 и TC-101…TC-110 |
 | `/team` | Устав команды, роли, правила работы |
 
