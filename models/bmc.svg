@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="830" viewBox="0 0 1700 830" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+<defs>
+<marker id="fill" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33475E"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="vee" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="tri" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="15" markerHeight="15" orient="auto-start-reverse"><path d="M1,1 L13,7 L1,13 z" fill="#fff" stroke="#33475E" stroke-width="1.4"/></marker>
+<marker id="ocirc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8"><circle cx="5" cy="5" r="3.6" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="diamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#0F2E57"/></marker>
+<marker id="odiamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#fff" stroke="#33475E" stroke-width="1.2"/></marker>
+<marker id="crow" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M15,1 L3,8 L15,15 M3,1 L3,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="one" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M9,1 L9,15 M5,1 L5,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<rect x="10.0" y="10.0" width="336.0" height="560.0" rx="0" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="10.0" y="10.0" width="336.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="32" cy="30" r="12" fill="#0F2E57"/>
+<text x="32.0" y="35.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">8</text>
+<text x="52.0" y="36.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Ключевые партнёры</text>
+<circle cx="28" cy="70.8" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="75.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Столовая (арендатор): меню,</text>
+<text x="38.0" y="95.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">кухня, место выдачи</text>
+<circle cx="28" cy="115.83999999999999" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="120.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Payme, Click, Uzum: приём оплаты</text>
+<text x="38.0" y="140.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">и фискальный чек (C-02, C-03)</text>
+<circle cx="28" cy="160.88" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="165.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">SMS-шлюз Eskiz: код входа</text>
+<text x="38.0" y="185.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">(FR-15)</text>
+<circle cx="28" cy="205.92" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="210.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Telegram: уведомление «Готов»</text>
+<text x="38.0" y="230.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">(FR-11)</text>
+<circle cx="28" cy="250.95999999999998" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="255.8" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Администрация университета:</text>
+<text x="38.0" y="275.3" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">расписание перемен, точка выдачи</text>
+<text x="38.0" y="294.8" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">(C-04)</text>
+<circle cx="28" cy="315.52" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="320.3" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Хостинг в Узбекистане (C-01)</text>
+<rect x="346.0" y="10.0" width="336.0" height="280.0" rx="0" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="346.0" y="10.0" width="336.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="368.0" cy="30" r="12" fill="#0F2E57"/>
+<text x="368.0" y="35.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">7</text>
+<text x="388.0" y="36.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Ключевые действия</text>
+<circle cx="364.0" cy="70.8" r="2.6" fill="#1E2A38"/>
+<text x="374.0" y="75.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Разработка и поддержка сервиса</text>
+<circle cx="364.0" cy="96.32" r="2.6" fill="#1E2A38"/>
+<text x="374.0" y="101.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Подключение и обучение столовой</text>
+<circle cx="364.0" cy="121.83999999999999" r="2.6" fill="#1E2A38"/>
+<text x="374.0" y="126.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Ежедневная сверка платежей</text>
+<text x="374.0" y="146.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">(BG-3)</text>
+<circle cx="364.0" cy="166.88" r="2.6" fill="#1E2A38"/>
+<text x="374.0" y="171.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Замер времени получения (BG-1)</text>
+<rect x="346.0" y="290.0" width="336.0" height="280.0" rx="0" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="346.0" y="290.0" width="336.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="368.0" cy="310.0" r="12" fill="#0F2E57"/>
+<text x="368.0" y="315.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">6</text>
+<text x="388.0" y="316.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Ключевые ресурсы</text>
+<circle cx="364.0" cy="350.8" r="2.6" fill="#1E2A38"/>
+<text x="374.0" y="355.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Приложение студента и панель</text>
+<text x="374.0" y="375.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">столовой (PWA)</text>
+<circle cx="364.0" cy="395.84000000000003" r="2.6" fill="#1E2A38"/>
+<text x="374.0" y="400.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Сервер в Узбекистане, PostgreSQL</text>
+<circle cx="364.0" cy="421.36" r="2.6" fill="#1E2A38"/>
+<text x="374.0" y="426.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Договор столовой с платёжным</text>
+<text x="374.0" y="445.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">сервисом</text>
+<circle cx="364.0" cy="466.40000000000003" r="2.6" fill="#1E2A38"/>
+<text x="374.0" y="471.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Разработчик на поддержке: 6 ч в</text>
+<text x="374.0" y="490.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">месяц</text>
+<rect x="682.0" y="10.0" width="336.0" height="560.0" rx="0" fill="#FBF8F1" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="682.0" y="10.0" width="336.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="704.0" cy="30" r="12" fill="#0F2E57"/>
+<text x="704.0" y="35.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">2</text>
+<text x="724.0" y="36.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Ценностные предложения</text>
+<text x="696.0" y="75.6" font-size="16" text-anchor="start" font-weight="700" fill="#3F6E96">Студенту:</text>
+<circle cx="700.0" cy="92.32" r="2.6" fill="#1E2A38"/>
+<text x="710.0" y="97.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">обед в выбранную перемену без</text>
+<text x="710.0" y="116.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">общей очереди</text>
+<circle cx="700.0" cy="137.36" r="2.6" fill="#1E2A38"/>
+<text x="710.0" y="142.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">блюдо отложено за студентом 10</text>
+<text x="710.0" y="161.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">минут оплаты</text>
+<circle cx="700.0" cy="182.4" r="2.6" fill="#1E2A38"/>
+<text x="710.0" y="187.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">электронный чек и возврат денег</text>
+<text x="710.0" y="206.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">при отмене</text>
+<text x="696.0" y="232.2" font-size="16" text-anchor="start" font-weight="700" fill="#3F6E96">Столовой:</text>
+<circle cx="700.0" cy="248.96" r="2.6" fill="#1E2A38"/>
+<text x="710.0" y="253.8" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">список заказов и сводка порций</text>
+<text x="710.0" y="273.3" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">до перемены</text>
+<circle cx="700.0" cy="294.0" r="2.6" fill="#1E2A38"/>
+<text x="710.0" y="298.8" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">учёт каждого онлайн-заказа и</text>
+<text x="710.0" y="318.3" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">отчёт продаж</text>
+<circle cx="700.0" cy="339.04" r="2.6" fill="#1E2A38"/>
+<text x="710.0" y="343.8" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">меньше людей у стойки в большую</text>
+<text x="710.0" y="363.4" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">перемену</text>
+<rect x="1018.0" y="10.0" width="336.0" height="280.0" rx="0" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="1018.0" y="10.0" width="336.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="1040.0" cy="30" r="12" fill="#0F2E57"/>
+<text x="1040.0" y="35.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">4</text>
+<text x="1060.0" y="36.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Отношения с клиентами</text>
+<circle cx="1036.0" cy="70.8" r="2.6" fill="#1E2A38"/>
+<text x="1046.0" y="75.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Студент: самообслуживание,</text>
+<text x="1046.0" y="95.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">статус и уведомление</text>
+<circle cx="1036.0" cy="115.83999999999999" r="2.6" fill="#1E2A38"/>
+<text x="1046.0" y="120.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Столовая: сопровождение в</text>
+<text x="1046.0" y="140.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">пилотный месяц, обучение 2 ч,</text>
+<text x="1046.0" y="159.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">сверка раз в неделю</text>
+<rect x="1018.0" y="290.0" width="336.0" height="280.0" rx="0" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="1018.0" y="290.0" width="336.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="1040.0" cy="310.0" r="12" fill="#0F2E57"/>
+<text x="1040.0" y="315.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">3</text>
+<text x="1060.0" y="316.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Каналы</text>
+<circle cx="1036.0" cy="350.8" r="2.6" fill="#1E2A38"/>
+<text x="1046.0" y="355.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">QR-код на столах и у стойки →</text>
+<text x="1046.0" y="375.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">приложение в браузере</text>
+<circle cx="1036.0" cy="395.84000000000003" r="2.6" fill="#1E2A38"/>
+<text x="1046.0" y="400.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Посты в Telegram-чатах групп 1–4</text>
+<text x="1046.0" y="420.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">курсов</text>
+<circle cx="1036.0" cy="440.88000000000005" r="2.6" fill="#1E2A38"/>
+<text x="1046.0" y="445.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">Панель на телефоне сотрудника</text>
+<rect x="1354.0" y="10.0" width="336.0" height="560.0" rx="0" fill="#FBF8F1" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="1354.0" y="10.0" width="336.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="1376.0" cy="30" r="12" fill="#0F2E57"/>
+<text x="1376.0" y="35.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">1</text>
+<text x="1396.0" y="36.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Сегменты клиентов</text>
+<text x="1368.0" y="75.6" font-size="16" text-anchor="start" font-weight="700" fill="#3F6E96">Пользователь — студенты</text>
+<circle cx="1372.0" cy="92.32" r="2.6" fill="#1E2A38"/>
+<text x="1382.0" y="97.1" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">роль «Студент»; около 250 обедов</text>
+<text x="1382.0" y="116.6" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">в большую перемену (A-04);</text>
+<text x="1382.0" y="136.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">сервис для студента бесплатный</text>
+<text x="1368.0" y="161.7" font-size="16" text-anchor="start" font-weight="700" fill="#3F6E96">Платящий клиент — столовая</text>
+<circle cx="1372.0" cy="178.4" r="2.6" fill="#1E2A38"/>
+<text x="1382.0" y="183.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">роль «Администратор столовой»:</text>
+<text x="1382.0" y="202.7" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">руководитель, меню и отчёты</text>
+<circle cx="1372.0" cy="223.44" r="2.6" fill="#1E2A38"/>
+<text x="1382.0" y="228.2" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">роль «Сотрудник столовой»:</text>
+<text x="1382.0" y="247.8" font-size="16" text-anchor="start" font-weight="400" fill="#1E2A38">раздача и выдача по коду</text>
+<rect x="10.0" y="580.0" width="840.0" height="240.0" rx="0" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="10.0" y="580.0" width="840.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="32" cy="600" r="12" fill="#0F2E57"/>
+<text x="32.0" y="605.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">9</text>
+<text x="52.0" y="606.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Структура издержек</text>
+<text x="24.0" y="644.8" font-size="15" text-anchor="start" font-weight="700" fill="#3F6E96">Постоянные (14,4 млн сум в год):</text>
+<circle cx="28" cy="660.55" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="665.0" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">сервер 250 000 сум в месяц; домен 200 000 сум в год; поддержка 6 ч в месяц (600 000 сум);</text>
+<text x="38.0" y="683.3" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">развитие 40 ч в год (4 млн сум)</text>
+<text x="24.0" y="707.6" font-size="15" text-anchor="start" font-weight="700" fill="#3F6E96">Переменные (на заказ):</text>
+<circle cx="28" cy="723.4499999999999" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="727.9" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">SMS-код ≈ 50 сум</text>
+<text x="24.0" y="752.2" font-size="15" text-anchor="start" font-weight="700" fill="#3F6E96">Разовые:</text>
+<circle cx="28" cy="768.0499999999998" r="2.6" fill="#1E2A38"/>
+<text x="38.0" y="772.5" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">разработка 48 млн сум (раздел 3.6); эквайринг оплачивает столовая по своему договору</text>
+<rect x="850.0" y="580.0" width="840.0" height="240.0" rx="0" fill="#FFFFFF" stroke="#0F2E57" stroke-width="1.8"/>
+<rect x="850.0" y="580.0" width="840.0" height="40.0" rx="0" fill="#E6EEF5" stroke="#0F2E57" stroke-width="1.8"/>
+<circle cx="872.0" cy="600" r="12" fill="#0F2E57"/>
+<text x="872.0" y="605.0" font-size="13" text-anchor="middle" font-weight="700" fill="#FFFFFF">5</text>
+<text x="892.0" y="606.0" font-size="16" text-anchor="start" font-weight="700" fill="#0F2E57">Потоки доходов</text>
+<circle cx="868.0" cy="640.25" r="2.6" fill="#1E2A38"/>
+<text x="878.0" y="644.8" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">Комиссия 5 % с оплаченного онлайн-заказа после бесплатного пилотного месяца (A-07)</text>
+<circle cx="868.0" cy="664.55" r="2.6" fill="#1E2A38"/>
+<text x="878.0" y="669.0" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">При среднем чеке 25 000 сум — 1 250 сум с заказа</text>
+<circle cx="868.0" cy="688.8499999999999" r="2.6" fill="#1E2A38"/>
+<text x="878.0" y="693.3" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">Столовая платит раз в месяц по отчёту продаж (FR-22). Студент не платит</text>
+<circle cx="868.0" cy="713.1499999999999" r="2.6" fill="#1E2A38"/>
+<text x="878.0" y="717.6" font-size="15" text-anchor="start" font-weight="400" fill="#1E2A38">Фиксированная плата 500 000 сум в месяц отклонена (П5)</text>
+</svg>

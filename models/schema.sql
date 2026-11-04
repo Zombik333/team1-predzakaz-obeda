@@ -6,7 +6,7 @@ CREATE TABLE staff (
   id serial PRIMARY KEY,
   name varchar(60) NOT NULL,
   phone varchar(13) NOT NULL UNIQUE,
-  role varchar(12) NOT NULL CHECK (role IN ('раздача', 'администратор')),
+  role varchar(12) NOT NULL CHECK (role IN ('сотрудник', 'администратор')),
   password_hash varchar(100) NOT NULL,
   is_active boolean DEFAULT true NOT NULL
 );

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="760" viewBox="0 0 1500 760" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+<defs>
+<marker id="fill" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33475E"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="vee" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="tri" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="15" markerHeight="15" orient="auto-start-reverse"><path d="M1,1 L13,7 L1,13 z" fill="#fff" stroke="#33475E" stroke-width="1.4"/></marker>
+<marker id="ocirc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8"><circle cx="5" cy="5" r="3.6" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="diamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#0F2E57"/></marker>
+<marker id="odiamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#fff" stroke="#33475E" stroke-width="1.2"/></marker>
+<marker id="crow" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M15,1 L3,8 L15,15 M3,1 L3,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="one" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M9,1 L9,15 M5,1 L5,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<path d="M120.0,650.0 L1440.0,650.0" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="655.0" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">0</text>
+<path d="M120.0,582.2 L1440.0,582.2" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="587.2" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">500</text>
+<path d="M120.0,514.4 L1440.0,514.4" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="519.4" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">1 000</text>
+<path d="M120.0,446.7 L1440.0,446.7" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="451.7" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">1 500</text>
+<path d="M120.0,378.9 L1440.0,378.9" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="383.9" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">2 000</text>
+<path d="M120.0,311.1 L1440.0,311.1" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="316.1" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">2 500</text>
+<path d="M120.0,243.3 L1440.0,243.3" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="248.3" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">3 000</text>
+<path d="M120.0,175.6 L1440.0,175.6" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="180.6" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">3 500</text>
+<path d="M120.0,107.8 L1440.0,107.8" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="112.8" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">4 000</text>
+<path d="M120.0,40.0 L1440.0,40.0" fill="none" stroke="#E3E8EE" stroke-width="1"/>
+<text x="108.0" y="45.0" font-size="14" text-anchor="end" font-weight="400" fill="#6B7785">4 500</text>
+<text x="120.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">0</text>
+<text x="285.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">20</text>
+<text x="450.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">40</text>
+<text x="615.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">60</text>
+<text x="780.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">80</text>
+<text x="945.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">100</text>
+<text x="1110.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">120</text>
+<text x="1275.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">140</text>
+<text x="1440.0" y="676.0" font-size="14" text-anchor="middle" font-weight="400" fill="#6B7785">160</text>
+<path d="M120.0,650.0 L1440.0,650.0" fill="none" stroke="#1E2A38" stroke-width="1.6"/>
+<path d="M120.0,650.0 L120.0,40.0" fill="none" stroke="#1E2A38" stroke-width="1.6"/>
+<text x="780.0" y="710.0" font-size="16" text-anchor="middle" font-weight="600" fill="#1E2A38">Онлайн-заказов в учебный день</text>
+<text x="34" y="345.0" font-size="16" font-weight="600" fill="#1E2A38" text-anchor="middle" transform="rotate(-90 34 345.0)">тыс. сум за учебный месяц</text>
+<polygon points="120.0,650.0 1440.0,77.4133333333333 1440.0,650.0" fill="#E6EEF5" opacity="0.6"/>
+<path d="M120.0,650.0 L1440.0,77.4" fill="none" stroke="#0F2E57" stroke-width="3.2"/>
+<text x="1159.5" y="183.1" font-size="15" text-anchor="end" font-weight="700" fill="#0F2E57">Маржа: 1 200 сум × 22 дня × заказы</text>
+<path d="M120.0,433.1 L1440.0,433.1" fill="none" stroke="#3F6E96" stroke-width="2.6"/>
+<text x="1423.5" y="423.1" font-size="15" text-anchor="end" font-weight="700" fill="#3F6E96">Постоянные расходы, 1 столовая: 1 600</text>
+<path d="M120.0,360.9 L1440.0,360.9" fill="none" stroke="#8C7A57" stroke-width="2.2" stroke-dasharray="8 6"/>
+<text x="1423.5" y="350.9" font-size="15" text-anchor="end" font-weight="700" fill="#8C7A57">3 столовые: 2 133</text>
+<path d="M408.8,650.0 L408.8,524.7" fill="none" stroke="#6B7785" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="408.75" cy="524.7466666666667" r="7" fill="#8E4C4C" stroke="#fff" stroke-width="2"/>
+<rect x="416.8" y="537.4" width="125.6" height="20.8" fill="#FFFFFF" fill-opacity="0.92" rx="3"/>
+<text x="420.8" y="550.7" font-size="14" text-anchor="start" font-weight="700" fill="#8E4C4C">35: спрос −30 %</text>
+<path d="M532.5,650.0 L532.5,471.1" fill="none" stroke="#6B7785" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="532.5" cy="471.06666666666666" r="7" fill="#8E4C4C" stroke="#fff" stroke-width="2"/>
+<rect x="540.5" y="483.8" width="109.9" height="20.8" fill="#FFFFFF" fill-opacity="0.92" rx="3"/>
+<text x="544.5" y="497.1" font-size="14" text-anchor="start" font-weight="700" fill="#8E4C4C">50: цель BG-2</text>
+<path d="M623.2,650.0 L623.2,431.7" fill="none" stroke="#6B7785" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="623.25" cy="431.70133333333337" r="7" fill="#0F2E57" stroke="#fff" stroke-width="2"/>
+<rect x="421.1" y="392.4" width="196.2" height="20.8" fill="#FFFFFF" fill-opacity="0.92" rx="3"/>
+<text x="613.2" y="405.7" font-size="14" text-anchor="end" font-weight="700" fill="#0F2E57">61: точка безубыточности</text>
+<path d="M788.2,650.0 L788.2,360.1" fill="none" stroke="#6B7785" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="788.25" cy="360.128" r="7" fill="#0F2E57" stroke="#fff" stroke-width="2"/>
+<rect x="546.9" y="320.8" width="235.4" height="20.8" fill="#FFFFFF" fill-opacity="0.92" rx="3"/>
+<text x="778.2" y="334.1" font-size="14" text-anchor="end" font-weight="700" fill="#0F2E57">81: безубыточность 3 столовых</text>
+<path d="M986.2,650.0 L986.2,274.2" fill="none" stroke="#6B7785" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="986.25" cy="274.24" r="7" fill="#0F2E57" stroke="#fff" stroke-width="2"/>
+<rect x="994.2" y="286.9" width="180.5" height="20.8" fill="#FFFFFF" fill-opacity="0.92" rx="3"/>
+<text x="998.2" y="300.2" font-size="14" text-anchor="start" font-weight="700" fill="#0F2E57">105: 3 столовые, −30 %</text>
+<path d="M1357.5,650.0 L1357.5,113.2" fill="none" stroke="#6B7785" stroke-width="1.2" stroke-dasharray="4 4"/>
+<circle cx="1357.5" cy="113.20000000000005" r="7" fill="#0F2E57" stroke="#fff" stroke-width="2"/>
+<rect x="1174.9" y="125.9" width="172.6" height="20.8" fill="#FFFFFF" fill-opacity="0.92" rx="3"/>
+<text x="1343.5" y="139.2" font-size="14" text-anchor="end" font-weight="700" fill="#0F2E57">150: 3 столовые, цель</text>
+</svg>

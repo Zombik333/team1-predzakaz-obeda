@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="470" viewBox="0 0 1500 470" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+<defs>
+<marker id="fill" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#33475E"/></marker>
+<marker id="open" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11 z" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="vee" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M1,1 L11,6 L1,11" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="tri" viewBox="0 0 14 14" refX="13" refY="7" markerWidth="15" markerHeight="15" orient="auto-start-reverse"><path d="M1,1 L13,7 L1,13 z" fill="#fff" stroke="#33475E" stroke-width="1.4"/></marker>
+<marker id="ocirc" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8"><circle cx="5" cy="5" r="3.6" fill="#fff" stroke="#6B7785" stroke-width="1.3"/></marker>
+<marker id="diamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#0F2E57"/></marker>
+<marker id="odiamond" viewBox="0 0 16 10" refX="1" refY="5" markerWidth="16" markerHeight="10" orient="auto-start-reverse"><path d="M1,5 L8,1 L15,5 L8,9 z" fill="#fff" stroke="#33475E" stroke-width="1.2"/></marker>
+<marker id="crow" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M15,1 L3,8 L15,15 M3,1 L3,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+<marker id="one" viewBox="0 0 16 16" refX="15" refY="8" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M9,1 L9,15 M5,1 L5,15" fill="none" stroke="#33475E" stroke-width="1.5"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<path d="M170.0,346.0 L1440.0,346.0" fill="none" stroke="#C9D3DE" stroke-width="1.2"/>
+<text x="156.0" y="352.0" font-size="16" text-anchor="end" font-weight="500" fill="#6B7785">плохо</text>
+<path d="M170.0,210.0 L1440.0,210.0" fill="none" stroke="#6B7785" stroke-width="1.2" stroke-dasharray="7 6"/>
+<text x="156.0" y="216.0" font-size="16" text-anchor="end" font-weight="500" fill="#6B7785">нейтрально</text>
+<path d="M170.0,74.0 L1440.0,74.0" fill="none" stroke="#C9D3DE" stroke-width="1.2"/>
+<text x="156.0" y="80.0" font-size="16" text-anchor="end" font-weight="500" fill="#6B7785">хорошо</text>
+<path d="M170.0,380.0 L1440.0,380.0" fill="none" stroke="#1E2A38" stroke-width="1.6"/>
+<polyline points="275.8,278.0 487.5,142.0 699.2,278.0 910.8,142.0 1122.5,74.0 1334.2,142.0" fill="none" stroke="#0F2E57" stroke-width="4"/>
+<circle cx="275.8" cy="278.0" r="11" fill="#8E4C4C" stroke="#fff" stroke-width="3"/>
+<text x="275.8" y="256.0" font-size="18" text-anchor="middle" font-weight="700" fill="#8E4C4C">2</text>
+<text x="275.8" y="414.0" font-size="17" text-anchor="middle" font-weight="600" fill="#1E2A38">Потребность</text>
+<circle cx="487.5" cy="142.0" r="11" fill="#0F2E57" stroke="#fff" stroke-width="3"/>
+<text x="487.5" y="120.0" font-size="18" text-anchor="middle" font-weight="700" fill="#0F2E57">4</text>
+<text x="487.5" y="414.0" font-size="17" text-anchor="middle" font-weight="600" fill="#1E2A38">Выбор блюда</text>
+<circle cx="699.2" cy="278.0" r="11" fill="#8E4C4C" stroke="#fff" stroke-width="3"/>
+<text x="699.2" y="256.0" font-size="18" text-anchor="middle" font-weight="700" fill="#8E4C4C">2</text>
+<text x="699.2" y="414.0" font-size="17" text-anchor="middle" font-weight="600" fill="#1E2A38">Заказ и оплата</text>
+<circle cx="910.8" cy="142.0" r="11" fill="#0F2E57" stroke="#fff" stroke-width="3"/>
+<text x="910.8" y="120.0" font-size="18" text-anchor="middle" font-weight="700" fill="#0F2E57">4</text>
+<text x="910.8" y="414.0" font-size="17" text-anchor="middle" font-weight="600" fill="#1E2A38">Ожидание</text>
+<circle cx="1122.5" cy="74.0" r="11" fill="#0F2E57" stroke="#fff" stroke-width="3"/>
+<text x="1122.5" y="52.0" font-size="18" text-anchor="middle" font-weight="700" fill="#0F2E57">5</text>
+<text x="1122.5" y="414.0" font-size="17" text-anchor="middle" font-weight="600" fill="#1E2A38">Получение</text>
+<circle cx="1334.2" cy="142.0" r="11" fill="#0F2E57" stroke="#fff" stroke-width="3"/>
+<text x="1334.2" y="120.0" font-size="18" text-anchor="middle" font-weight="700" fill="#0F2E57">4</text>
+<text x="1334.2" y="414.0" font-size="17" text-anchor="middle" font-weight="600" fill="#1E2A38">После обеда</text>
+<text x="174.0" y="458.0" font-size="15" text-anchor="start" font-weight="400" fill="#6B7785">Оценка эмоции от 1 до 5. Оценка 2 — провал: на этом этапе студент теряет время или боится потерять деньги.</text>
+</svg>

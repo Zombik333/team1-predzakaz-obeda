@@ -4,7 +4,7 @@ Table staff { // Сотрудники
   id serial [pk]
   name varchar(60) [not null, note: 'имя']
   phone varchar(13) [unique, note: 'телефон']
-  role varchar(12) [not null, note: 'раздача / администратор']
+  role varchar(12) [not null, note: 'сотрудник / администратор']
   password_hash varchar(100) [not null, note: 'хэш пароля']
   is_active boolean [not null, note: 'работает']
 }
