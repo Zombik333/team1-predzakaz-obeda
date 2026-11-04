@@ -25,7 +25,7 @@
 - Кликабельный прототип и экраны: [prototype/](prototype/README.md)
 - Доска задач Trello: <ссылка>
 - Папка Google Drive: <ссылка>
-- Прототип Figma: <ссылка>
+- Прототип Figma: https://www.figma.com/proto/rmpJx3sDMnKO9yX4EyJlqL/?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down&content-scaling=fixed&page-id=0%3A1 (открывается без входа; исходный файл: https://www.figma.com/design/rmpJx3sDMnKO9yX4EyJlqL)
 - Опрос Google Forms: <ссылка>
 
 ## Структура

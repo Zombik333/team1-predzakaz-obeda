@@ -1,6 +1,8 @@
 # Прототип
 
-Прототип в Figma: <ссылка>
+Прототип в Figma: https://www.figma.com/proto/rmpJx3sDMnKO9yX4EyJlqL/?node-id=1-2&starting-point-node-id=1%3A2&scaling=scale-down&content-scaling=fixed&page-id=0%3A1
+
+Ссылка открывается без входа в Figma. Исходный файл: https://www.figma.com/design/rmpJx3sDMnKO9yX4EyJlqL
 
 Прототип показывает главный путь студента и экран ошибки оплаты (версия 2, после проверки на 5 участниках). Таблица 3.11 в главе 3 связывает каждый экран с UC, US и FR.
 
