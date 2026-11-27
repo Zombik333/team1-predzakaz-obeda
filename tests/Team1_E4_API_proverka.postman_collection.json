@@ -1,0 +1,121 @@
+{
+  "info": {
+    "_postman_id": "446aded5-a59e-5fcb-92e7-ccac5341e383",
+    "name": "Team1_E4_API_proverka",
+    "description": "Этап 4, раздел 4.4. Три запроса к учебному API jsonplaceholder.typicode.com с проверкой кода ответа. Запросы моделируют три операции сервиса предзаказа: прочитать позицию, создать заказ, запросить несуществующий заказ.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "API-01 Получить запись по ID (аналог: позиция меню)",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('API-01: код ответа 200', function () { pm.response.to.have.status(200); });",
+              "pm.test('API-01: в ответе запись с id = 1', function () { pm.expect(pm.response.json().id).to.eql(1); });",
+              "pm.test('API-01: ответ быстрее 2000 мс', function () { pm.expect(pm.response.responseTime).to.be.below(2000); });"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/posts/1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "posts",
+            "1"
+          ]
+        },
+        "description": "Позитивная проверка. Аналог FR-01: клиент читает данные по ID."
+      }
+    },
+    {
+      "name": "API-02 Создать запись (аналог: новый заказ)",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('API-02: код ответа 201', function () { pm.response.to.have.status(201); });",
+              "pm.test('API-02: сервер вернул id новой записи', function () { pm.expect(pm.response.json()).to.have.property('id'); });",
+              "pm.test('API-02: сервер вернул переданное название', function () { pm.expect(pm.response.json().title).to.eql('Заказ: плов x1, чай x1'); });"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/posts",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "posts"
+          ]
+        },
+        "description": "Позитивная проверка. Аналог FR-23: сервер сохраняет заказ и возвращает его ID.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Заказ: плов x1, чай x1\",\n  \"body\": \"Окно: большая перемена 11:50-12:50\",\n  \"userId\": 1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "API-03 Запросить несуществующую запись (негативный)",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('API-03: код ответа 404', function () { pm.response.to.have.status(404); });",
+              "pm.test('API-03: тело ответа пустое', function () { pm.expect(pm.response.json()).to.eql({}); });"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/posts/9999",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "posts",
+            "9999"
+          ]
+        },
+        "description": "Негативная проверка. Аналог TC-051: запрос заказа по неверному коду даёт ответ «не найден»."
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://jsonplaceholder.typicode.com"
+    }
+  ]
+}

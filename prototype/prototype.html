@@ -104,20 +104,26 @@ body{font-family:Inter,'DejaVu Sans',Arial,sans-serif;background:var(--page);col
 .found{background:var(--okp);border:1px solid #BCD3C7;border-radius:14px;padding:10px 12px;font-size:13.5px;line-height:1.5;margin-bottom:10px}
 .found b{font-size:14.5px}
 .tag{display:inline-block;font-size:11px;font-weight:700;color:var(--muted);background:var(--pale);border-radius:6px;padding:2px 6px;margin-left:6px;vertical-align:middle}
+.add:disabled,.qty button:disabled{opacity:.4;cursor:not-allowed}
+.msg{border-radius:12px;padding:10px 12px;font-size:13px;margin:8px 0;background:var(--errp);color:var(--err);font-weight:600}
+.msg.ok{background:var(--okp);color:var(--ok)}
+.receipt{background:var(--card);border:1px dashed var(--grey);border-radius:12px;padding:10px 12px;font-size:12.5px;margin:8px 0;line-height:1.5}
+.inp div.empty{color:transparent}
+.ver{font-size:12px;color:var(--grey);margin-top:10px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <div class="side">
     <h1>Прототип: предзаказ обеда</h1>
-    <p>Кликабельный прототип основного сценария. Семь экранов связаны переходами. Экран Э-5 показывает отказ оплаты.</p>
+    <p>Кликабельный прототип основного сценария. Семь экранов связаны переходами. Экран Э-5 показывает отказ оплаты.</p><p class="ver">Версия 3 (этап 4): исправлены дефекты BUG-001…BUG-008 первого прогона тест-кейсов и две проблемы повторной проверки на пяти участниках.</p>
     <ol>
       <li>Добавьте плов и чай, откройте корзину.</li>
       <li>Выберите большую перемену.</li>
       <li>Оплатите через Click: платёж будет отклонён (Э-5).</li>
       <li>Выберите Payme и оплатите ещё раз.</li>
       <li>Посмотрите код и нажмите «Я у точки выдачи».</li>
-      <li>Откройте панель сотрудника и выдайте заказ.</li>
+      <li>В панели сотрудника введите код 4821, нажмите OK и выдайте заказ.</li>
     </ol>
     <div class="nav" id="nav"></div>
   </div>
@@ -127,27 +133,18 @@ body{font-family:Inter,'DejaVu Sans',Arial,sans-serif;background:var(--page);col
     <section class="screen" id="s1" data-name="Э-1 Меню">
       <div class="status"><span>11:02</span><span>4G ▮▮▮</span></div>
       <div class="bar"><div class="t">Меню на сегодня</div><div class="s">Столовая, цокольный этаж · вторник</div></div>
-      <div class="body">
-        <div class="item"><div class="ph">Плов</div><div><div class="n">Плов</div><div class="m">250 г · <span class="stock">осталось 18</span></div><div class="p">24 000 сум</div></div><button class="add in" data-add="plov">1 ✓</button></div>
-        <div class="item"><div class="ph">Лагман</div><div><div class="n">Лагман</div><div class="m">300 г · <span class="stock">осталось 7</span></div><div class="p">22 000 сум</div></div><button class="add">+</button></div>
-        <div class="item"><div class="ph">Самса</div><div><div class="n">Самса с мясом</div><div class="m">120 г · <span class="stock">осталось 25</span></div><div class="p">8 000 сум</div></div><button class="add">+</button></div>
-        <div class="item"><div class="ph">Салат</div><div><div class="n">Салат «Свежий»</div><div class="m">150 г · <span class="stock">осталось 12</span></div><div class="p">10 000 сум</div></div><button class="add">+</button></div>
-        <div class="item"><div class="ph">Чай</div><div><div class="n">Чай зелёный</div><div class="m">300 мл · <span class="stock">осталось 40</span></div><div class="p">3 000 сум</div></div><button class="add in">1 ✓</button></div>
+      <div class="body"><div id="menu"></div>
         <div class="note">Меню опубликовано в 07:40. Заказ на большую перемену принимаем до 11:35.</div>
       </div>
-      <div class="foot"><button class="btn" data-go="s2"><span>Корзина · 2 позиции</span><span>27 000 сум →</span></button></div>
+      <div class="foot"><button class="btn" data-go="s2" id="cartbtn"></button></div>
     </section>
 
     <!-- Э-2 Корзина -->
     <section class="screen" id="s2" data-name="Э-2 Корзина">
       <div class="status"><span>11:03</span><span>4G ▮▮▮</span></div>
       <div class="bar"><span class="back" data-go="s1">← Меню</span><div class="t">Корзина</div><div class="s">Не больше 5 штук одной позиции</div></div>
-      <div class="body">
-        <div class="item"><div class="ph">Плов</div><div><div class="n">Плов</div><div class="p">24 000 сум</div></div><div class="qty"><button>−</button><span>1</span><button>+</button></div></div>
-        <div class="hint">Осталось 18 шт.</div>
-        <div class="item"><div class="ph">Чай</div><div><div class="n">Чай зелёный</div><div class="p">3 000 сум</div></div><div class="qty"><button>−</button><span>1</span><button>+</button></div></div>
-        <div class="hint">Осталось 40 шт.</div>
-        <div class="sum"><span>Итого</span><b>27 000 сум</b></div>
+      <div class="body"><div id="cart"></div>
+        <div class="sum"><span>Итого</span><b id="total"></b></div>
         <div class="note">Корзина хранится в телефоне. Блюда откладываются за вами, когда вы переходите к оплате.</div>
       </div>
       <div class="foot"><button class="btn" data-go="s3">Выбрать, когда забрать</button></div>
@@ -158,40 +155,40 @@ body{font-family:Inter,'DejaVu Sans',Arial,sans-serif;background:var(--page);col
       <div class="status"><span>11:03</span><span>4G ▮▮▮</span></div>
       <div class="bar"><span class="back" data-go="s2">← Корзина</span><div class="t">Когда забрать?</div><div class="s">Выберите перемену сегодня</div></div>
       <div class="body">
-        <div class="win off"><div><div class="n">Малая перемена</div><div class="m">10:20–10:30</div></div><div class="r">Приём закрыт</div></div>
-        <div class="win sel"><div><div class="n">Большая перемена</div><div class="m">11:50–12:50</div></div><div class="r">Свободно<br>12 из 40</div></div>
-        <div class="win off"><div><div class="n">Малая перемена</div><div class="m">13:20–13:30</div></div><div class="r">Окно заполнено</div></div>
-        <div class="win"><div><div class="n">Малая перемена</div><div class="m">14:50–15:00</div></div><div class="r">Свободно<br>31 из 40</div></div>
+        <div class="win off" data-w="Малая перемена, 10:20–10:30"><div><div class="n">Малая перемена</div><div class="m">10:20–10:30</div></div><div class="r">Приём закрыт</div></div>
+        <div class="win sel" data-w="Большая перемена, 11:50–12:50"><div><div class="n">Большая перемена</div><div class="m">11:50–12:50</div></div><div class="r">Свободно<br>12 из 40</div></div>
+        <div class="win off" data-w="Малая перемена, 13:20–13:30"><div><div class="n">Малая перемена</div><div class="m">13:20–13:30</div></div><div class="r">Окно заполнено</div></div>
+        <div class="win" data-w="Малая перемена, 14:50–15:00"><div><div class="n">Малая перемена</div><div class="m">14:50–15:00</div></div><div class="r">Свободно<br>31 из 40</div></div>
         <div class="note">Приём заказов на перемену закрывается за 15 минут до её начала. Заберите заказ у точки онлайн-заказов на цокольном этаже.</div>
       </div>
-      <div class="foot"><button class="btn" data-go="s4">К оплате · 27 000 сум</button></div>
+      <div class="foot"><button class="btn" data-go="s4" id="topay"></button></div>
     </section>
 
     <!-- Э-4 Оплата -->
     <section class="screen" id="s4" data-name="Э-4 Оплата">
       <div class="status"><span>11:04</span><span>4G ▮▮▮</span></div>
-      <div class="bar"><span class="back" data-go="s3">← Когда забрать</span><div class="t">Оплата</div><div class="s">Плов, чай · большая перемена 11:50</div></div>
+      <div class="bar"><span class="back" data-go="s3">← Когда забрать</span><div class="t">Оплата</div><div class="s" id="paysub"></div></div>
       <div class="body">
-        <div class="timer"><span>Блюда отложены за вами</span><b id="t1">09:52</b></div>
+        <div class="timer"><span>Блюда отложены за вами</span><b id="t1">10:00</b></div>
         <div class="pay" data-pay="payme"><span class="dot"></span>Payme<span class="lg">карта Uzcard, Humo</span></div>
         <div class="pay sel" data-pay="click"><span class="dot"></span>Click<span class="lg">карта Uzcard, Humo</span></div>
         <div class="pay" data-pay="uzum"><span class="dot"></span>Uzum<span class="lg">карта Uzcard, Humo</span></div>
         <div class="note">Данные карты вы вводите на странице платёжного сервиса. Наш сервис их не видит и не хранит.</div>
-        <div class="sum"><span>К оплате</span><b>27 000 сум</b></div>
+        <div class="sum"><span>К оплате</span><b id="paysum"></b></div><div id="expired"></div>
       </div>
-      <div class="foot"><button class="btn" id="paybtn">Оплатить 27 000 сум</button></div>
+      <div class="foot"><button class="btn" id="paybtn"></button></div>
     </section>
 
     <!-- Э-5 Ошибка оплаты -->
     <section class="screen" id="s5" data-name="Э-5 Ошибка оплаты">
       <div class="status"><span>11:05</span><span>4G ▮▮▮</span></div>
-      <div class="bar"><div class="t">Оплата</div><div class="s">Плов, чай · большая перемена 11:50</div></div>
+      <div class="bar"><div class="t">Оплата</div><div class="s" id="errsub"></div></div>
       <div class="body">
         <div class="errbox"><div class="erric">!</div><h2>Оплата не прошла</h2><p>Click отклонил платёж: на карте недостаточно средств.</p></div>
         <div class="facts">
           <div><span class="k">✓</span><span>Деньги не списаны.</span></div>
           <div><span class="k">✓</span><span>Корзина сохранена.</span></div>
-          <div><span class="k">✓</span><span>Блюда отложены за вами ещё <b id="t2">08:40</b>.</span></div>
+          <div><span class="k">✓</span><span>Блюда отложены за вами ещё <b id="t2"></b>.</span></div>
         </div>
         <div class="note">Если за 10 минут оплата не пройдёт, блюда вернутся в меню. Корзина останется в телефоне.</div>
       </div>
@@ -201,16 +198,16 @@ body{font-family:Inter,'DejaVu Sans',Arial,sans-serif;background:var(--page);col
     <!-- Э-6 Заказ принят -->
     <section class="screen" id="s6" data-name="Э-6 Заказ">
       <div class="status"><span>11:06</span><span>4G ▮▮▮</span></div>
-      <div class="bar"><div class="t">Заказ № 1043</div><div class="s">Оплачено через Payme · 27 000 сум</div></div>
+      <div class="bar"><div class="t">Заказ № 1043</div><div class="s" id="paidsub"></div></div>
       <div class="body">
-        <div class="steps"><div class="st done"><i></i>Принят</div><div class="st"><i></i>Готовится</div><div class="st"><i></i>Готов</div><div class="st"><i></i>Выдан</div></div>
-        <div class="code"><div class="l">Код получения</div><div class="c">4821</div><div class="w"><b>Большая перемена, 11:50–12:50</b><br>Точка онлайн-заказов, цокольный этаж</div></div>
-        <div class="row"><span>Плов × 1</span><span>24 000 сум</span></div>
-        <div class="row"><span>Чай зелёный × 1</span><span>3 000 сум</span></div>
-        <div class="row"><span class="link">Электронный чек</span><span class="link">Отменить заказ</span></div>
+        <div class="steps" id="steps"><div class="st done"><i></i>Принят</div><div class="st"><i></i>Готовится</div><div class="st"><i></i>Готов</div><div class="st"><i></i>Выдан</div></div>
+        <div class="code"><div class="l">Код получения</div><div class="c">4821</div><div class="w"><b id="ordwin">Большая перемена, 11:50–12:50</b><br>Точка онлайн-заказов, цокольный этаж</div></div>
+        <div id="ordrows"></div>
+        <div class="row"><span class="link" id="checklink">Электронный чек</span><span class="link" id="cancellink">Отменить заказ</span></div>
+        <div id="ordmsg"></div>
         <div class="note" style="margin-top:8px">Когда заказ будет готов, придёт сообщение в Telegram.</div>
       </div>
-      <div class="foot"><button class="btn" data-go="s7">Я у точки выдачи</button></div>
+      <div class="foot"><button class="btn" id="here">Я у точки выдачи</button></div>
     </section>
 
     <!-- Э-7 Панель столовой -->
@@ -219,42 +216,130 @@ body{font-family:Inter,'DejaVu Sans',Arial,sans-serif;background:var(--page);col
       <div class="bar"><div class="t">Панель · выдача</div><div class="s">Большая перемена 11:50 · 28 заказов, выдано 9</div></div>
       <div class="body">
         <div class="sumtab"><div class="h">Собрать на окно</div><div class="g"><span>Плов</span><b>14</b><span>Лагман</span><b>9</b><span>Самса с мясом</span><b>11</b><span>Чай зелёный</span><b>17</b></div></div>
-        <div class="inp"><div>4</div><div>8</div><div>2</div><div>1</div></div>
-        <div class="found"><b>№ 1043 · Готов</b><span class="tag">У точки 11:57</span><br>Плов × 1, Чай зелёный × 1</div>
+        <div class="inp" id="inp"><div></div><div></div><div></div><div></div></div>
+        <div id="found"></div>
         <div class="keys"><button>1</button><button>2</button><button>3</button><button>4</button><button>5</button><button>6</button><button>7</button><button>8</button><button>9</button><button>⌫</button><button>0</button><button>OK</button></div>
       </div>
-      <div class="foot"><button class="btn" data-go="s1">Выдать заказ</button></div>
+      <div class="foot"><button class="btn dis" id="issue">Выдать заказ</button></div>
     </section>
   </div>
 </div>
 <script>
 (function(){
+  var MENU = [
+    {id:'plov', n:'Плов', w:'250 г', p:24000, s:18},
+    {id:'lagman', n:'Лагман', w:'300 г', p:22000, s:7},
+    {id:'samsa', n:'Самса с мясом', w:'120 г', p:8000, s:25},
+    {id:'salat', n:'Салат «Свежий»', w:'150 г', p:10000, s:12},
+    {id:'kompot', n:'Компот', w:'250 мл', p:4000, s:3},
+    {id:'chay', n:'Чай зелёный', w:'300 мл', p:3000, s:40},
+    {id:'manty', n:'Манты', w:'200 г', p:20000, s:0}
+  ];
+  var MAXQ = 5, RES = 600;
+  var cart = {plov:1, chay:1}, win = 'Большая перемена, 11:50–12:50', pay = 'click';
+  var left = RES, timer = null, order = null, code = '';
+  function $(id){ return document.getElementById(id); }
+  function money(x){ return String(x).replace(/\B(?=(\d{3})+(?!\d))/g, ' ') + ' сум'; }
+  function item(id){ for (var i=0;i<MENU.length;i++) if (MENU[i].id===id) return MENU[i]; }
+  function lim(it){ return Math.min(MAXQ, it.s); }
+  function total(){ var t=0; for (var k in cart) t += cart[k]*item(k).p; return t; }
+  function count(){ return Object.keys(cart).length; }
+  function names(){ return Object.keys(cart).map(function(k){ return item(k).n.toLowerCase(); }).join(', '); }
+  function short(){ var m = win.split(', '); return m[0].toLowerCase() + ' ' + m[1].split('–')[0]; }
+  function render(){
+    $('menu').innerHTML = MENU.filter(function(it){ return it.s > 0; }).map(function(it){
+      var q = cart[it.id];
+      return '<div class="item" data-id="'+it.id+'"><div class="ph">'+it.n.split(' ')[0]+'</div><div><div class="n">'+it.n+'</div><div class="m">'+it.w+' · <span class="stock">осталось '+it.s+'</span></div><div class="p">'+money(it.p)+'</div></div><button class="add'+(q?' in':'')+'" data-add="'+it.id+'">'+(q? q+' ✓' : '+')+'</button></div>';
+    }).join('');
+    $('cart').innerHTML = Object.keys(cart).map(function(k){
+      var it = item(k), q = cart[k], full = q >= lim(it);
+      return '<div class="item" data-id="'+k+'"><div class="ph">'+it.n.split(' ')[0]+'</div><div><div class="n">'+it.n+'</div><div class="p">'+money(it.p)+'</div></div><div class="qty"><button data-dec="'+k+'"'+(q<=1?' disabled':'')+'>−</button><span>'+q+'</span><button data-inc="'+k+'"'+(full?' disabled':'')+'>+</button></div></div>'
+        + '<div class="hint"><span class="link" data-del="'+k+'" style="float:right">Удалить</span>' + (q >= it.s ? '<b>Осталось '+it.s+' шт.</b>' : (q >= MAXQ ? 'Не больше 5 штук одной позиции' : 'Осталось '+it.s+' шт.')) + '</div>';
+    }).join('') || '<div class="note">Корзина пуста. Добавьте блюда в меню.</div>';
+    var n = count(), t = total();
+    $('cartbtn').innerHTML = '<span>Корзина · '+n+' '+(n===1?'позиция':(n>=2&&n<=4?'позиции':'позиций'))+'</span><span>'+money(t)+' →</span>';
+    $('total').textContent = money(t);
+    $('topay').textContent = 'К оплате · ' + money(t);
+    $('paysum').textContent = money(t);
+    $('paybtn').textContent = 'Оплатить ' + money(t);
+    $('paysub').textContent = $('errsub').textContent = names().replace(/^./, function(c){return c.toUpperCase();}) + ' · ' + short();
+    Array.prototype.forEach.call(document.querySelectorAll('.win'), function(w){ w.classList.toggle('sel', w.getAttribute('data-w') === win); });
+  }
+  function tick(){
+    var s = (left<0?0:left), t = ('0'+Math.floor(s/60)).slice(-2)+':'+('0'+(s%60)).slice(-2);
+    $('t1').textContent = $('t2').textContent = t;
+    if (left <= 0){ clearInterval(timer); timer = null;
+      $('expired').innerHTML = '<div class="msg">Время резерва истекло. Блюда вернулись в меню. Корзина сохранена: вернитесь в корзину, чтобы оформить заказ заново.</div>';
+      $('paybtn').classList.add('dis'); }
+  }
+  function startRes(){ if (timer || order) return; left = RES; $('expired').innerHTML=''; $('paybtn').classList.remove('dis'); tick(); timer = setInterval(function(){ left--; tick(); }, 1000); }
+  function stopRes(){ if (timer) clearInterval(timer); timer = null; }
   var screens = Array.prototype.slice.call(document.querySelectorAll('.screen'));
-  var nav = document.getElementById('nav');
-  var pay = 'click';
+  var nav = $('nav');
   function show(id){
+    if (id === 's4') startRes();
+    if (id === 's2' || id === 's1' || id === 's3') { if (!order) { stopRes(); } }
     screens.forEach(function(s){ s.classList.toggle('on', s.id === id); });
     Array.prototype.forEach.call(nav.children, function(b){ b.classList.toggle('on', b.getAttribute('data-id') === id); });
     try { history.replaceState(null, '', '#' + id); } catch(e) {}
   }
-  screens.forEach(function(s){
-    var b = document.createElement('button');
-    b.textContent = s.getAttribute('data-name');
-    b.setAttribute('data-id', s.id);
-    b.onclick = function(){ show(s.id); };
-    nav.appendChild(b);
-  });
-  function selectPay(p){
-    pay = p;
-    Array.prototype.forEach.call(document.querySelectorAll('.pay'), function(e){ e.classList.toggle('sel', e.getAttribute('data-pay') === p); });
+  screens.forEach(function(s){ var b = document.createElement('button'); b.textContent = s.getAttribute('data-name'); b.setAttribute('data-id', s.id); b.onclick = function(){ show(s.id); }; nav.appendChild(b); });
+  function selectPay(p){ pay = p; Array.prototype.forEach.call(document.querySelectorAll('.pay'), function(e){ e.classList.toggle('sel', e.getAttribute('data-pay') === p); }); }
+  function makeOrder(){
+    stopRes();
+    order = {no:1043, code:'4821', win:win, rows:Object.keys(cart).map(function(k){ return [item(k).n, cart[k], cart[k]*item(k).p]; }), sum:total(), pay:pay, status:'Принят', paid:'11:06', here:null, issued:null};
+    for (var k in cart) item(k).s -= cart[k];
+    cart = {}; render();
+    var P = {payme:'Payme', click:'Click', uzum:'Uzum'};
+    $('paidsub').textContent = 'Оплачено через ' + P[order.pay] + ' · ' + money(order.sum);
+    $('ordwin').textContent = order.win;
+    $('ordrows').innerHTML = order.rows.map(function(r){ return '<div class="row"><span>'+r[0]+' × '+r[1]+'</span><span>'+money(r[2])+'</span></div>'; }).join('');
+    $('ordmsg').innerHTML = ''; setStatus('Принят');
+  }
+  function setStatus(st){
+    order.status = st;
+    var all = ['Принят','Готовится','Готов','Выдан'], i = all.indexOf(st);
+    $('steps').innerHTML = st === 'Отменён' ? '<div class="st done"><i></i>Отменён</div>' : all.map(function(x,j){ return '<div class="st'+(j<=i?' done':'')+'"><i></i>'+x+'</div>'; }).join('');
+    $('cancellink').style.display = (st === 'Принят') ? '' : 'none';
+    $('here').classList.toggle('dis', st === 'Отменён' || st === 'Выдан');
+  }
+  function renderInp(){ var d = $('inp').children; for (var i=0;i<4;i++){ d[i].textContent = code[i] || '·'; d[i].className = code[i] ? '' : 'empty'; } }
+  function find(){
+    var f = $('found'), b = $('issue');
+    b.classList.add('dis');
+    if (code.length < 4){ f.innerHTML = '<div class="msg">Введите 4 цифры кода</div>'; return; }
+    if (!order || order.status === 'Отменён' || code !== order.code){ f.innerHTML = '<div class="msg">Заказ не найден</div>'; return; }
+    if (order.status === 'Выдан'){ f.innerHTML = '<div class="msg">Заказ № '+order.no+' уже выдан в '+order.issued+'. Код повторно не принимается.</div>'; return; }
+    f.innerHTML = '<div class="found"><b>№ '+order.no+' · '+order.status+'</b>'+(order.here?'<span class="tag">У точки '+order.here+'</span>':'')+'<br>'+order.rows.map(function(r){return r[0]+' × '+r[1];}).join(', ')+'</div>';
+    b.classList.remove('dis');
   }
   document.addEventListener('click', function(e){
-    var t = e.target.closest('[data-go]');
-    if (t){ if (t.getAttribute('data-select')) selectPay(t.getAttribute('data-select')); show(t.getAttribute('data-go')); return; }
-    var p = e.target.closest('.pay');
-    if (p){ selectPay(p.getAttribute('data-pay')); return; }
-    if (e.target.closest('#paybtn')){ show(pay === 'click' ? 's5' : 's6'); }
+    var t;
+    if ((t = e.target.closest('[data-add]'))){ var id = t.getAttribute('data-add'); if (!cart[id]) cart[id] = 1; render(); return; }
+    if ((t = e.target.closest('[data-inc]'))){ var k = t.getAttribute('data-inc'); if (cart[k] < lim(item(k))) cart[k]++; render(); return; }
+    if ((t = e.target.closest('[data-del]'))){ delete cart[t.getAttribute('data-del')]; render(); return; }
+    if ((t = e.target.closest('[data-dec]'))){ var k2 = t.getAttribute('data-dec'); if (cart[k2] > 1) cart[k2]--; render(); return; }
+    if ((t = e.target.closest('.win'))){ if (!t.classList.contains('off')) { win = t.getAttribute('data-w'); render(); } return; }
+    if ((t = e.target.closest('[data-go]'))){ if (t.getAttribute('data-go')==='s3' && !count()) return; if (t.getAttribute('data-select')) selectPay(t.getAttribute('data-select')); show(t.getAttribute('data-go')); return; }
+    if ((t = e.target.closest('.pay'))){ selectPay(t.getAttribute('data-pay')); return; }
+    if (e.target.closest('#paybtn')){ if (left <= 0 || !count()) return; if (pay === 'click') show('s5'); else { makeOrder(); show('s6'); } return; }
+    if (e.target.closest('#checklink')){ if (!order) return; var P = {payme:'Payme', click:'Click', uzum:'Uzum'};
+      $('ordmsg').innerHTML = '<div class="receipt"><b>Электронный чек</b><br>Заказ № '+order.no+' · 27.11.2026, '+order.paid+'<br>'+order.rows.map(function(r){return r[0]+' × '+r[1]+' — '+money(r[2]);}).join('<br>')+'<br><b>Итого: '+money(order.sum)+'</b> · оплачено через '+P[order.pay]+'</div>'; return; }
+    if (e.target.closest('#cancellink')){ if (!order || order.status !== 'Принят') return;
+      $('ordmsg').innerHTML = '<div class="receipt">Отменить заказ № '+order.no+'? Деньги вернутся на карту.<br><span class="link" id="cancelyes">Да, отменить</span> · <span class="link" id="cancelno">Нет</span></div>'; return; }
+    if (e.target.closest('#cancelno')){ $('ordmsg').innerHTML = ''; return; }
+    if (e.target.closest('#cancelyes')){ if (!order || order.status !== 'Принят') return;
+      order.rows.forEach(function(r){ MENU.forEach(function(it){ if (it.n === r[0]) it.s += r[1]; }); }); render();
+      setStatus('Отменён'); $('ordmsg').innerHTML = '<div class="msg ok">Заказ отменён. Возврат '+money(order.sum)+' на карту начнётся в течение 5 минут.</div>'; return; }
+    if (e.target.closest('#here')){ if (!order || order.status === 'Отменён' || order.status === 'Выдан') return; if (!order.here){ order.here = '11:57'; if (order.status === 'Принят') setStatus('Готов'); }
+      $('ordmsg').innerHTML = '<div class="msg ok">Отметка «Я на месте» записана в '+order.here+'. Назовите код сотруднику.</div>'; code=''; renderInp(); $('found').innerHTML=''; $('issue').classList.add('dis'); show('s7'); return; }
+    if ((t = e.target.closest('.keys button'))){ var v = t.textContent;
+      if (v === '⌫') code = code.slice(0, -1); else if (v === 'OK') { find(); return; } else if (code.length < 4) code += v;
+      renderInp(); $('found').innerHTML = ''; $('issue').classList.add('dis'); return; }
+    if (e.target.closest('#issue')){ if ($('issue').classList.contains('dis')) return; order.issued = '11:58'; setStatus('Выдан');
+      $('found').innerHTML = '<div class="msg ok">Заказ № '+order.no+' выдан в '+order.issued+'.</div>'; $('issue').classList.add('dis'); code=''; renderInp(); return; }
   });
+  render(); renderInp(); selectPay('click');
   var start = location.hash ? location.hash.slice(1) : 's1';
   if (/[?&]shot=1/.test(location.search)) document.documentElement.classList.add('shot');
   show(document.getElementById(start) ? start : 's1');
