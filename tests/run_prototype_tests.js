@@ -29,10 +29,12 @@ const rec = (id, ok, act) => { R[id] = { status: ok ? 'Пройден' : 'Не �
   await p.locator('#s1 .foot .btn').click();
   const plov = p.locator('#s2 .item', { hasText: 'Плов' });
   const s0 = await T(p, '#s2 .sum');
-  for (let i = 0; i < 4; i++) { const btn = plov.locator('.qty button').nth(1); if (await btn.isEnabled()) await btn.click(); }
+  let sAfter1 = '';
+  for (let i = 0; i < 4; i++) { const btn = plov.locator('.qty button').nth(1); if (await btn.isEnabled()) await btn.click(); if (i === 0) sAfter1 = await T(p, '#s2 .sum'); }
   const q5 = await T(p, '#s2 .item:has-text("Плов") .qty span'); const s1 = await T(p, '#s2 .sum');
   rec('TC-201', q5 === '5', `После 4 нажатий «+» количество плова: ${q5}`);
-  rec('TC-008', s0 !== s1 && /(144|120) 000|22 000|  /.test(s1) || (s0 !== s1), `Итог до: «${s0}», после: «${s1}»`);
+  const num = (t) => Number(t.replace(/\D/g, ''));
+  rec('TC-008', num(sAfter1) - num(s0) === 24000, `Итог до: «${s0}», после одного «+» у плова: «${sAfter1}» (плюс 24 000 сум, цена плова)`);
   const inc = plov.locator('.qty button').nth(1); const dis = !(await inc.isEnabled()); if (!dis) await inc.click();
   const q6 = await T(p, '#s2 .item:has-text("Плов") .qty span');
   rec('TC-006', q6 === '5', `Шестое нажатие «+»: кнопка ${dis ? 'неактивна' : 'активна'}, количество ${q6}`);
@@ -50,7 +52,7 @@ const rec = (id, ok, act) => { R[id] = { status: ok ? 'Пройден' : 'Не �
   } else R['TC-007'] = { status: 'Заблокирован', act: 'В прототипе нет позиции с остатком меньше 5' };
   // TC-002 (manty stock 0)
   const menuNames = await p.locator('#s1 .item .n').allInnerTexts();
-  const hasZeroData = (await p.content()).includes("s:0}");
+  const hasZeroData = (await p.content()).includes('Манты');
   R['TC-002'] = hasZeroData ? { status: menuNames.includes('Манты') ? 'Не пройден' : 'Пройден', act: `Манты (остаток 0) ${menuNames.includes('Манты') ? 'видны' : 'не показаны'} в меню` } : { status: 'Заблокирован', act: 'В данных прототипа нет позиции с остатком 0' };
   await p.close();
   // windows
@@ -59,7 +61,7 @@ const rec = (id, ok, act) => { R[id] = { status: ok ? 'Пройден' : 'Не �
   await p.locator('#s3 .win', { hasText: '13:20' }).click(); const wFull = await w();
   rec('TC-011', wFull !== '13:20–13:30' && /Окно заполнено/.test(await T(p, '#s3 .win:has-text("13:20")')), `Окно 13:20 с пометкой «Окно заполнено»; после нажатия выбрано ${wFull}`);
   await p.locator('#s3 .win', { hasText: '10:20' }).click(); const wClosed = await w();
-  R['TC-010'] = { status: 'Заблокирован', act: `Окно 10:20 «Приём закрыт» не выбирается (выбрано ${wClosed}). Правило «за 15 минут» на прототипе не проверить: время на экранах постоянное` };
+  // TC-010 is not run: the prototype time is constant, the 15-minute rule needs the test server
   const wins = await p.locator('#s3 .win .m').allInnerTexts();
   rec('TC-009', wins.length === 4 && /сегодня/.test(await T(p, '#s3 .bar')), `Показаны 4 перемены текущего дня: ${wins.join(', ')}`);
   await p.locator('#s3 .win', { hasText: '14:50' }).click(); const w4 = await w();
@@ -107,11 +109,18 @@ const rec = (id, ok, act) => { R[id] = { status: ok ? 'Пройден' : 'Не �
   for (let i = 0; i < 4; i++) await key('⌫'); for (const k of '482') await key(k); await key('OK');
   const f3 = await p.locator('#s7 .body').innerText();
   rec('TC-203', /Введите 4 цифры|не найден/.test(f3) && !(await p.locator('#issue.dis').count() === 0), /Введите 4 цифры/.test(f3) ? 'Код 482: сообщение «Введите 4 цифры кода», кнопка «Выдать» неактивна' : 'Цифры не вводятся с клавиатуры');
+  // keyboard check: after erasing, the field must be empty (in version 2 the field is a static picture «4821»)
+  const field = async () => (await p.locator('#s7 .inp div:not(.empty)').allInnerTexts()).join('').replace(/\s+/g, '');
+  for (let i = 0; i < 5; i++) await key('⌫');
+  const keysWork = (await field()) === '';
+  // TC-204 fifth digit is not accepted
+  for (const k of '48215') await key(k);
+  const inp = await field();
+  rec('TC-204', keysWork && inp === '4821', keysWork ? `Ввод 4, 8, 2, 1, 5: поле кода «${inp}»` : 'Клавиши не вводят цифры: поле кода всегда показывает 4821');
   // TC-050 correct code
-  for (let i = 0; i < 4; i++) await key('⌫'); for (const k of '48215') await key(k);
-  const inp = (await p.locator('#s7 .inp').innerText()).replace(/\s+/g, '');
+  for (let i = 0; i < 5; i++) await key('⌫'); for (const k of '4821') await key(k);
   await key('OK'); const f4 = await p.locator('#s7 .body').innerText();
-  rec('TC-050', /№ 1043/.test(f4) && inp === '4821', `Ввод 4821 (пятая цифра 5 не принята: поле «${inp}») → ${/№ 1043/.test(f4) ? 'заказ № 1043' : 'заказ не найден'}`);
+  rec('TC-050', keysWork && /№ 1043/.test(f4), keysWork ? `Ввод 4821 → ${/№ 1043/.test(f4) ? 'заказ № 1043' : 'заказ не найден'}` : 'Клавиши не вводят цифры: карточка № 1043 видна всегда, поиск по коду не работает');
   rec('TC-043', /№ 1043/.test(f4) && /Плов/.test(f4) && /Готов|Принят/.test(f4), /№ 1043/.test(f4) ? `Карточка заказа: «${f4.split('\n').filter(x => /№|×/.test(x)).join(' ')}»` : 'Карточка заказа не показана');
   await shot(p, 'staff');
   // TC-052 issue
